@@ -1770,7 +1770,7 @@ uninstall-am: uninstall-docDATA uninstall-libLTLIBRARIES \
 # compiled from empty input. Note that GNU-specific features are OK here,
 # because on Windows we are compiled with the GNU toolchain.
 .rc.lo:
-	$(LIBTOOL) --mode=compile $(RC) $(DEFS) $(DEFAULT_INCLUDES) \
+	$(LIBTOOL) --tag=CC --mode=compile $(RC) $(DEFS) $(DEFAULT_INCLUDES) \
 		$(INCLUDES) $(liblzma_la_CPPFLAGS) $(CPPFLAGS) $(RCFLAGS) \
 		-i $< -o $@
 	echo > empty.c

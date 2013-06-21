@@ -86,7 +86,7 @@ DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/Makefile.am \
 	$(dist_examples_DATA) $(dist_examplesold_DATA) ABOUT-NLS \
 	AUTHORS COPYING ChangeLog INSTALL NEWS README THANKS TODO \
 	build-aux/compile build-aux/config.guess \
-	build-aux/config.rpath build-aux/config.sub \
+	build-aux/config.rpath build-aux/config.sub build-aux/depcomp \
 	build-aux/install-sh build-aux/missing build-aux/ltmain.sh \
 	$(top_srcdir)/build-aux/compile \
 	$(top_srcdir)/build-aux/config.guess \
