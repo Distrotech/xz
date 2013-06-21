@@ -684,6 +684,7 @@ EXTRA_DIST = check/crc32_tablegen.c check/crc64_tablegen.c \
 	$(am__append_14) liblzma.pc.in
 CLEANFILES = $(am__append_36)
 doc_DATA = $(am__append_39)
+LIBTOOLFLAGS = --tag=CC
 lib_LTLIBRARIES = liblzma.la
 liblzma_la_SOURCES = $(top_srcdir)/src/common/tuklib_physmem.c \
 	common/common.c common/common.h common/block_util.c \

@@ -11,6 +11,8 @@ EXTRA_DIST =
 CLEANFILES =
 doc_DATA =
 
+LIBTOOLFLAGS = --tag=CC
+
 lib_LTLIBRARIES = liblzma.la
 liblzma_la_SOURCES = $(top_srcdir)/src/common/tuklib_physmem.c
 liblzma_la_CPPFLAGS = \
